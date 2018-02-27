@@ -10,6 +10,7 @@
 	<properties>
 		<junit.version>4.10</junit.version>
 		<spring.version>4.1.3.RELEASE</spring.version>
+		<hibernate.validator.version>5.2.4.Final</hibernate.validator.version>
 		<mybatis.version>3.2.8</mybatis.version>
 		<mybatis.spring.version>1.2.2</mybatis.spring.version>
 		<mybatis.paginator.version>1.2.15</mybatis.paginator.version>
@@ -62,6 +63,13 @@
 				<artifactId>spring-aspects</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			
+			<!-- Hibernate Validator -->
+	        <dependency>
+	            <groupId>org.hibernate</groupId>
+	            <artifactId>hibernate-validator</artifactId>
+	            <version>${hibernate.validator.version}</version>
+	        </dependency>
 
 			<!-- Mybatis -->
 			<dependency>
